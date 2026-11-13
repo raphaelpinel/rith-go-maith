@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rith-go-maith
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rithgomaith
+    username: rith
+    password: rith
+  jpa:
+    hibernate:
+      ddl-auto: validate
